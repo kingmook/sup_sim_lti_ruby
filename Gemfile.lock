@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.2)
+    ims-lti (1.1.4)
+      builder
+      oauth (~> 0.4.5)
+      uuid
+    macaddr (1.7.1)
+      systemu (~> 2.6.2)
+    oauth (0.4.7)
+    systemu (2.6.4)
+    uuid (2.3.7)
+      macaddr (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ims-lti
